@@ -28,7 +28,7 @@ void inicializarC()
 
 void multmat6()
 {
-	int BlockS=250;
+	int BlockS=200;
 	clock_t begin= clock();
 	for (int i1 = 0; i1 < MAX ; i1 += BlockS)
 		for (int j1 = 0; j1 < MAX ; j1 += BlockS)
